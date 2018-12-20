@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+ul li{
+	list-style: none;
+	margin-top: 10px;
+}
+
+label{
+	margin-right: 10px;
+	width: 70px;
+	float: left;
+}
+
+ul{
+	width: 300px;
+	margin:0 auto;
+	position: relative;
+}
+
+.button{
+	position: absolute;
+	top:110px;
+	left:210px;	
+}

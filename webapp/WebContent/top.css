@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+ 
+.container1{
+	display:table;
+	border-collapse:separate;
+	border-spacing: 15px ;
+	width:100%;
+}
+.button1{
+	display: table-cell;
+	width:86px
+}
+
+.messe1{
+	display: table-cell;
+	vertical-align:middle;
+}
+
+.container2{
+	display:table;
+	border-collapse:separate;
+	border-spacing: 15px ;
+	width:100%;
+}
+.button2{
+	display: table-cell;
+	width:86px;
+}
+
+.messe2{
+	display: table-cell;
+	vertical-align:middle;
+}

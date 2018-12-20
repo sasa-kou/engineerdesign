@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Cal</title>
+</head>
+<body>
+
+食事をとった日時と、食べたものを登録してください。<br>
+<br>
+
+日付
+	<input type="TEXT" name="Day"><br>
+時間
+	<!--<input type="TEXT" name="Time"><br>-->
+	<select style="name="Time">
+		<option value="朝">朝</option>
+		<option value="昼">昼</option>
+		<option value="夜">夜</option>
+	</select>
+<br>
+	
+<br>
+
+メニュー
+
+<form method="POST" action="calServlet"> 
+
+主食
+<select style="position:absolute;left:80px;top:155px;width:150px;height:25px;" name="shushoku">
+<option value="ご飯">ご飯</option>
+<option value="パン">パン</option>
+<option value="ラーメン">ラーメン</option>
+<option value="うどん">うどん</option>
+<option value="そば">そば</option>
+</select>
+<br>
+
+主菜
+<select style="position:absolute;left:80px;top:179px;width:150px;height:25px;" name="shusai">
+<option value="ハンバーグ">ハンバーグ</option>
+<option value="ステーキ">ステーキ</option>
+<option value="焼き魚">焼き魚</option>
+<option value="唐揚げ">唐揚げ</option>
+<option value="エビフライ">エビフライ</option>
+</select>
+<br>
+
+飲み物
+<select style="position:absolute;left:80px;top:202px;width:150px;height:25px;" name="drink">
+<option value="コーラ">コーラ</option>
+<option value="オレンジジュース">オレンジジュース</option>
+<option value="りんごジュース">りんごジュース</option>
+<option value="ウーロン茶">ウーロン茶</option>
+<option value="水">水</option>
+</select>
+<br>
+
+デザート
+<select style="position:absolute;left:80px;top:226px;width:150px;height:25px;" name="dessert">
+<option value="プリン">プリン</option>
+<option value="ケーキ">ケーキ</option>
+<option value="アイス">アイス</option>
+<option value="パフェ">パフェ</option>
+<option value="ワッフル">ワッフル</option>
+</select>
+<br>
+
+<br>
+<!-- ページ遷移先の指定 -->
+<input type="SUBMIT" value="登録"><br>
+</form>
+
+</body>
+</html>
