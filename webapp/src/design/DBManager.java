@@ -7,7 +7,6 @@ import java.sql.DriverManager;
 public class DBManager {
 
 	// 重要： 以下の部分を各自の MySQL の設定にあわせて変更する
-	// 以下は仮想マシンの MySQL データベースの設定である
 	/*private static String url = "jdbc:mysql://192.168.1.112:3306/db_tomcat";
 	private static String user = "tomcat";
 	private static String password = "endeza12";*/
